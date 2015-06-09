@@ -11,9 +11,9 @@ Live version :
 
 http://charlespattyn.be/php_15/index.php
 
-*Admin account : admin / admin_pwd*
-*Verified user : linky / linky_pwd*
-*Unverified user : user / user*
++ *Admin account : admin / admin_pwd*
++ *Verified user : linky / linky_pwd*
++ *Unverified user : user / user*
 
 ### Content
 
