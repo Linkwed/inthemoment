@@ -22,7 +22,7 @@ What is fully working :
 1. Secure Login
 2. Inscription Form (Will need Admin status upgraded to acces private content)
 3. Auto acces to a private section when logged and Account upgraded by a Admin (Status)
-4. Only final files under 10mo will be accepted
+4. Responsiv layout, still not adapted for tiny smartphone
 5. Uploads files, every type, except script based one
 6. Download thems, of course
 7. A tiny message system, for living note to collaborator
