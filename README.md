@@ -5,7 +5,7 @@ My 2015 TFE / WebGL / Three.js
 
 ## PHP Exam
 
-A tiny Files sharing platform, for my Photo customers
+A tiny Files sharing platform
 
 Live version : 
 
