@@ -68,7 +68,7 @@
                 <div class="alternative">
                     <h2 data-sr>HUM…DIY? <span>(Boooo, shame on you!)</span></h2>
                     <p data-sr>You're not handy? It is always possible to order a pre-assembled version, a unique "universal" model, compatible with any smartphone between 4 and 5.5 inches, but less accurate.</p>
-                    <a  data-sr href="https://www.google.com/get/cardboard/get-cardboard.html" target="_blank">BUY</a>
+                    <a  data-sr href="https://www.google.com/get/cardboard/get-cardboard.html" target="_blank">GET IT</a>
                 </div>
             </section>
             <section class="create">
@@ -77,32 +77,18 @@
                     <p data-sr>You are ready? And you have everything handy? It's time ... Find a new alternative to your universe. Change the way you see things. Discover a unique experience living a fleeting moment through 3D synaesthetic effect.</p>
                    
                     <h3 data-sr>Discover,<br/> new things<span> (Yeahhh)</span></h3>
-                    <?php  
-                    require_once 'php/Mobile_Detect.php';
-                            $detect = new Mobile_Detect;
-                             
-                            // Mobile Launch
-                            if ( $detect->isMobile() ) {
-                                echo "<a data-sr href=\"http://www.charlespattyn.be/project/tfe/app\" class=\"launch\">Launch</a>";
-                            }
-                    ?>
+                   <a data-sr href="http://www.charlespattyn.be/tfe/juin/app" class="launch">Launch</a>
+
+                  
+                           
                 </div>
 
             </section>
-            <section class="launch">
-                <div>
-                <?php
-                            if( !$detect->isMobile() ){
-                                echo "<img data-sr src=\"img/app.svg\" alt=\"QrCode\">
-                                    <p data-sr>Scan to launch the experience <span>(Or re-open this page on a mobile device)</span></p>";
-                            }
-                        ?>
-                </div>
-            </section>
+
         </main>
-       <!--  <footer>
-            
-        </footer> -->
+        <footer>
+            <p>© Copyright - In The Moment - Réalisation <a href="http://charlespattyn.be">Charles Pattyn</a></p>
+        </footer>
 
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
